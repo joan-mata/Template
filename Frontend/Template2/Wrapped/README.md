@@ -1,0 +1,5 @@
+Template 1:
+
+BAR PACO
+Color: gris
+Estructura:  con fotos

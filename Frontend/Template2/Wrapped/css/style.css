@@ -1,0 +1,170 @@
+
+html,body{
+    height: 100%;
+}
+
+body {
+        background-color: #eeeeee;
+        display: flex;
+        flex-direction:column;
+        
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #373a40;
+}
+
+a, b{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2.5px;
+    color: #373a40;
+}
+
+a{
+    letter-spacing: 2.5px;
+}
+
+b{
+    letter-spacing: 7.5px;
+}
+
+.layout {
+    margin-right: 5%;
+    margin-left: 5%;
+    border: dashed 1px #cdc9c3;
+    flex: 1 0 auto;
+}
+
+.main-header {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header div{
+    width: 90%;
+    text-align: right;
+}
+
+.main-header div a{
+    margin:10px;
+}
+
+.nav-menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu ul {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: dashed 2px #cdc9c3;
+    border-bottom: dashed 2px #cdc9c3;
+}
+
+.nav-menu ul li {
+    padding: 10px;
+    list-style:none;
+}
+
+.nav-menu ul li a {
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-menu ul li a:visited,  { text-decoration: none; color:#373a40; }
+.nav-menu ul li a:hover { text-decoration: none; color:#968c83; }
+
+.main{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.food h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    color: #373a40;
+    font-size: 40px;
+}
+
+
+.food {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+
+.food {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    border: dashed 2px #cdc9c3;
+    margin: 30px;
+    padding: 30px;
+}
+
+.product h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    color: #373a40;
+}
+
+.product img{
+    width: 200px
+}
+
+.product p{
+    width: 250px
+}
+
+section{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+
+/* NO SE USA */
+footer {
+    background-color: #d9e4dd;
+    text-align: center;
+    flex-shrink: 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+footer h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    color: #373a40;
+}
