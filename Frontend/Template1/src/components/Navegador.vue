@@ -1,31 +1,39 @@
 <script>
+import InformacionView from '../views/InfoView.vue';
+
 export default {
     data() {
         return {
-            Nav: ['INFORMACIÓN','TAPAS','ENTRANTES','PRIMEROS','SEGUNDOS','BOCATAS FRIOS','BOCATAS CALIENTES','POSTRES','BEBIDAS'],
+            // Nav: ['informacion','tapas','entrantes','primeros','segundos','bocatas frios','bocatas calientes','postres','bebidas'],
+            Nav: [
+                {name: 'Información',       path: 'info'}, 
+                {name: 'Tapas',             path: 'tapas'}, 
+                {name: 'Entrantes',         path: 'entrantes'}, 
+                {name: 'Primeros',          path: 'primeros'}, 
+                {name: 'Segundos',          path: 'segundos'}, 
+                {name: 'Bocatas Calientes', path: 'hotboc'}, 
+                {name: 'Bocatas Fríos',     path: 'coldboc'}, 
+                {name: 'Postres',           path: 'postres'}, 
+                {name: 'Bebidas',           path: 'bebidas'}
+            ]
         }
+
     },
 }
 
 </script>
 
 
-
-
 <template>
   <nav>
     <ul>
+        <!-- <li v-for="item in Nav" :key="item"> -->
         <li v-for="item in Nav" :key="item">
-            <router-link :to="item" class="ElementNav">{{ item }}</router-link>
+            <router-link :to="item.path" class="ElementNav">{{ item.name.toUpperCase() }}</router-link>
         </li>
     </ul>
     </nav>
 </template>
-
-
-
-
-
 
 
 <style scoped>
