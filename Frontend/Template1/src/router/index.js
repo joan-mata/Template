@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+
 import BebidasView from '../views/BebidasView.vue'
 import ColdbocView from '../views/ColdbocView.vue'
 import EntrantesView from '../views/EntrantesView.vue'
