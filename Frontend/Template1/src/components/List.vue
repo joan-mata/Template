@@ -48,8 +48,6 @@ div ul {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    border-top: dashed 2px #cdc9c3;
-    border-bottom: dashed 2px #cdc9c3;
 }
 
 div ul li {
@@ -59,34 +57,15 @@ div ul li {
 
 .ElementList {
     padding: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
     text-decoration: none;
     color: #373a40;
-}
-/* .wrapped{
-  display: grid;
-  grid-template-rows: 1;
-  margin: 0;
-  padding: 0;
-  width: 130%;
-} */
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 3fr 2fr 2fr;
+    align-items: center;
 
-.ListName {
-  grid-column: 1 / 3;
-  grid-row: 1/1;
-  width: 33%;
-}
-.ListPoints {
-  grid-column: 2 / 3;
-  grid-row: 1/1;
-  width: 33%;
-  padding-left: 20px;
-}
-.ListPrice {
-  grid-column: 3 / 3;
-  grid-row: 1/1;
-  width: 33%;
-  padding-left: 20px;
-}
+} 
+
 </style>

@@ -33,12 +33,6 @@ b{
     letter-spacing: 7.5px;
 }
 
-.layout {
-    margin-right: 5%;
-    margin-left: 5%;
-    border: dashed 1px #cdc9c3;
-    flex: 1 0 auto;
-}
 
 .main-header {
     display:flex;
