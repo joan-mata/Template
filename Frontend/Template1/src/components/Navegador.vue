@@ -1,5 +1,4 @@
 <script>
-import InformacionView from '../views/InfoView.vue';
 
 export default {
     data() {
